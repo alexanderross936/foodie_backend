@@ -52,7 +52,7 @@ mongoose
     `mongodb+srv://Alexanderross936:Alex884!@foodie.f6ojix3.mongodb.net/?retryWrites=true&w=majority`, { useNewUrlParser: true , useUnifiedTopology: true }
   )
   .then(() => {
-    app.listen(5000);
+    app.listen(5000 || process.env.PORT);
   })
   .catch(err => {
     console.log(err);
