@@ -49,7 +49,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://Alexanderross936:<password>@foodie.f6ojix3.mongodb.net/?retryWrites=true&w=majority`
+    `mongodb+srv://Alexanderross936:Alex884!@foodie.f6ojix3.mongodb.net/?retryWrites=true&w=majority`, { useNewUrlParser: true , useUnifiedTopology: true }
   )
   .then(() => {
     app.listen(5000);
