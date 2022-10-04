@@ -49,7 +49,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://Alexanderross936:Alex884!@foodie.f6ojix3.mongodb.net/?retryWrites=true&w=majority`, { useNewUrlParser: true , useUnifiedTopology: true }
+    `mongodb+srv://Alexanderross936:<Alex884!>@foodie.f6ojix3.mongodb.net/?retryWrites=true&w=majority`, { useNewUrlParser: true , useUnifiedTopology: true }
   )
 
   app.listen(process.env.PORT || 5000, () => {
